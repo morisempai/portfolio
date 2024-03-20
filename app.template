@@ -1,0 +1,10 @@
+Resources:
+  LambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: "portfolio-psi"
+      Code:
+        ImageUri: ""
+      VpcConfig:
+
+      Role: ""
